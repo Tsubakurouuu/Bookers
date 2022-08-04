@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+ 
+ 
+* {
+  box-sizing: border-box;
+}
+
+
+.all {
+  margin: 50px 0 0 30px;
+}
+
+.show {
+  margin: 50px 0 0 30px;
+}
+
+.edit {
+  margin: 50px 0 0 30px;
+}
