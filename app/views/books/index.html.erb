@@ -28,6 +28,7 @@
 
 
 <h2>New Books</h2>
+<div class="error-message">
 <% if @book.errors.any? %>
   <%= @book.errors.count %> errors prohibited this book from being saved:
   <ul>
@@ -36,7 +37,7 @@
     <% end %>
   </ul>
 <% end %>
-
+</div>
 
 <%= form_with model: @book, url: '/books', method: :post do |f| %>
   <%= f.label :title %><br>
